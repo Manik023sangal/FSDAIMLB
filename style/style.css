@@ -38,6 +38,7 @@ background-color:yellow;
 } */
 .child1{
     background-color: brown;
+    flex-basis: 50%;
 }
 .child2{
     background-color: cyan;
