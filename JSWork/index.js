@@ -8,9 +8,17 @@ console.log("Hello JS");
 // }
 // console.log("Hi, a = "+a);
 
-function fun(a,b){
+function fun(a,b,c){
     console.log("hello");
-    return a + b;
+    return a + b + c;
 }
 let data = fun(23,45);
 console.log(data);
+
+function cCompiler(){
+    
+}
+
+function javaCompiler(){
+    
+}
