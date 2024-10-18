@@ -8,17 +8,45 @@ console.log("Hello JS");
 // }
 // console.log("Hi, a = "+a);
 
-function fun(a,b,c){
-    console.log("hello");
-    return a + b + c;
-}
-let data = fun(23,45);
-console.log(data);
+// function fun(a,b,c){
+//     console.log("hello");
+//     return a + b + c;
+// }
+// let data = fun(23,45);
+// console.log(data);
 
-function cCompiler(){
-    
-}
+// function cCompiler(){
+//     return "C Compiler"
+// }
 
-function javaCompiler(){
-    
-}
+// function javaCompiler(){
+//     return "Java Compiler"
+// }
+
+// function selectLanguage(clbk){
+//     return "You have selected:" + clbk();
+// }
+// const result = selectLanguage(cCompiler);
+// console.log(result);
+
+
+// function selectLanguage(language="no compiler selected"){
+//     let data = language;
+
+//     if(language == 'C'){
+//         function cCompiler(){
+//             return "C Compiler"
+//         }
+//         data = cCompiler();
+//     }
+
+//     if(language == 'Java'){
+//         function javaCompiler(){
+//             return "Java Compiler"
+//         }
+//         data = javaCompiler();
+//     }
+//     return data;
+// }
+// const result = selectLanguage("java");
+// console.log(result);
