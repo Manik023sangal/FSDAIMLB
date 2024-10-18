@@ -51,6 +51,5 @@ console.log("Hello JS");
 // const result = selectLanguage("java");
 // console.log(result);
 
-console.dir(document);
 const div = document.getElementsByClassName("parent");
-console.dir(div);
+console.log(div);
