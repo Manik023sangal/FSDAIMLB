@@ -3,12 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Recipe Fetch Example</title>
+    <style>
+        /* Button styling */
+        #button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        #button:hover {
+            background-color: #45a049;
+        }
+
+        /* Recipe display styling */
+        #rec {
+            background-color: #f0f8e7;
+            padding: 10px;
+            margin-top: 15px;
+            border: 1px solid #c3e6cb;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+
+        /* Table styling */
+        #dataTable {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        #dataTable th, #dataTable td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+
+        #dataTable th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        #dataTable tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
 <body>
-    <button id="button" onclick="fetchData()">fetchData</button>
-    <div id="rec" style="background-color: yellowgreen;"></div>
-    <table border="1px solid black">
+    <button id="button" onclick="fetchData()">Fetch Recipes</button>
+    <div id="rec" class="recipe-display"></div>
+    <table id="dataTable">
         <tr>
             <th>ID</th>
             <th>Name</th>
