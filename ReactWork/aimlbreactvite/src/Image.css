@@ -1,0 +1,18 @@
+.imagecard{
+    height: 250px;
+    width: 200px;
+    border: 2px solid red;
+}
+
+.naturediv{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 60px;
+    background-color: brown;
+}
+
+.buttondiv{
+    padding-top: 150px;
+}
