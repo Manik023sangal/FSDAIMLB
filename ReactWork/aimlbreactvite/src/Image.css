@@ -1,18 +1,18 @@
-.imagecard{
-    height: 250px;
-    width: 200px;
+.imageCard{height: 400px;
+    width: 300px;
     border: 2px solid red;
 }
 
-.naturediv{
+.catdiv{
     border: 1px solid black;
     height: 100px;
     width: 100px;
     margin-left: 100px;
-    margin-top: 60px;
-    background-color: brown;
+    margin-top: 50px;
+    
 }
 
 .buttondiv{
     padding-top: 150px;
+    background-color: blueviolet;
 }
